@@ -8,7 +8,7 @@
     @foreach ($images as $image)
     <tr>
         <td> {{$image->name}}</td>
-        <td><img height="50" src="{{asset('storage/images/' . $image->image) }}"></td>
+        <td><img height="50" src="{{asset('images/' . $image->image) }}"></td>
     </tr>
     @endforeach
 
